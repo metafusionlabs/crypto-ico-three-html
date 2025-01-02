@@ -17,28 +17,6 @@ jQuery(document).ready(function ($) {
           $(".header-area").removeClass("menu-bg");
       }
     }
-    $('.blog-post-slider').slick({
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      autoplay: false,
-      arrows: true,
-      prevArrow: $('.testimonial-left'),
-      nextArrow: $('.testimonial-right'),
-      responsive: [ 
-        {
-          breakpoint:991,
-          settings: {
-            slidesToShow: 2,
-          },
-        },
-        {
-          breakpoint:580,
-          settings: {
-            slidesToShow: 1,
-          },
-        },
-      ],
-    });
     $(document).on("click", function (event) {
       const $div = $("#outside-click");
       const $navbarText = $("#navbarText");
@@ -78,7 +56,7 @@ window.addEventListener('resize', handleResize);
     const targetId = event.currentTarget.getAttribute('data-target');
     const targetSection = document.getElementById(targetId);
     if (targetSection) {
-      const offset = 120; // Adjust the gap size as needed
+      const offset = 100; // Adjust the gap size as needed
       const sectionPosition = targetSection.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({
         top: sectionPosition - offset,
@@ -109,7 +87,7 @@ const observer = new IntersectionObserver(
   },
   {
     threshold: 0.6, // At least 60% of the section is visible to activate it
-    rootMargin: `-120px 0px 0px 0px` // Account for the offset
+    rootMargin: `-100px 0px 0px 0px` // Account for the offset
   }
 );
 // Observe all sections

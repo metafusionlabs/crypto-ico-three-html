@@ -6,6 +6,9 @@
 }
  
 @media screen and (max-width:1199px) {
+  .navbar-nav{
+    border-radius: 10px;
+  }
   .common-heading-section h2 {
     font-size: 50px;
     line-height: 65px;
@@ -28,15 +31,15 @@
   }
 }
 @media screen and (max-width: 991px) {
-  .footer{
-    flex-wrap: wrap;
+  .hero-section {
+    padding-top: 170px;
+    padding-bottom: 50px;
   }
-  .footer-pagination{
-    width: 100%;
+  .hero-card-image-1 img,.hero-card-image-2 img{
+    max-width:220px;
   }
-  .footer-description{
-    text-align: center;
-    width: 100%;
+  .navbar-nav {
+    padding: 12px 8px;
   }
   .common-heading-section h2 {
     font-size: 40px;
@@ -89,64 +92,29 @@
   .ico-section{
     padding: 0;
   }
-  .hero-child-image-1 {
-    left: -5%;
-    width: 140px;
-  }
-  .hero-child-image-2 {
-    right: -3%;
-    width: 150px;
-  }
-  .card-1 {
-    width: 200px !important;
-  }
-  .information-content{
-    margin-top: 60px;
-  }
   .mt-140{
     margin-top: 100px;
   }
-  .step-card{
-    justify-content: space-between;
+  .partnerships-section{
+    padding-bottom: 0;
   }
 }
 @media screen and (max-width:767px) {
-  .shape-5{
-    max-width: 350px;
-    width: 100%;
+  .about-section{
+    overflow-x: hidden;
+  }
+  .ellipse{
+    height: 300px;
+    width: 300px;
+  }
+  .ellipse-1,.ellipse-4,.ellipse-8{
     right: 0;
   }
-  .shape-1{
-    max-width: 350px;
-    width: 100%;
+  .ellipse-6,.ellipse-7{
     left: 0;
   }
-  .footer-item {
-    padding: 30px 12px;
-  }
-  .faq-thumbnails{
-    text-align: center;
-  }
-  .faq-thumbnails img{
-    width: 70% !important;
-  }
-  .slider-arrows{
-    margin-top: 40px;
-  }
-  .step-card-thumbnail{
-    text-align: center;
-  }
-  .step-card-thumbnail img{
-    width: 50%;
-  }
-  .step-card{
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .coin-info-text h5, .coin-rate h5 {
-    font-size: 18px;
-    line-height: 26.4px;
-    color: #FFFFFF;
+  .hero-card-image-1 img, .hero-card-image-2 img {
+    opacity: 0.2;
   }
   .primary-btn, .secondary-btn {
     padding: 12px 24px;
@@ -173,9 +141,6 @@
   p{
     font-size: 16px;
   }
-  .center-image{
-    width: 100%;
-  }
   .secondary-btn, .tab-btn ul li {
     padding: 8px 20px;
     font-size: 16px;
@@ -189,47 +154,8 @@
   }
 }
 @media screen and (max-width:580px) {
-  .partner-icon img {
-    max-width: 50px;
-  }
-  .trading-info-logo img {
-    width: 25px;
-  }
-  .hero-child-image-1{
-    left: 0;
-  }
-  .hero-child-image-2{
-    display: none;
-  }
-  body{
-    overflow-x: hidden;
-  }
-  .info-list ul{
-    align-items: start !important;
-  }
-  .footer-pagination {
-    flex-wrap: wrap;
-  }
-  .footer-item{
-    width: 50%;
-  }
-  .footer-description{
-    width: 100%;
-  }
   .ico-address p{
     font-size: 13px;
-  }
-  .clients-trading-table table tr td {
-    font-size: 14px;
-  }
-  .clients-trading-table table tr td, .clients-trading-table table tr th {
-    padding: 10px 5px;
-  }
-  .table-card {
-    padding: 10px;
-  }
-  .clients-trading-table table tr th {
-    font-size: 14px;
   }
   p{
     font-size: 15px;

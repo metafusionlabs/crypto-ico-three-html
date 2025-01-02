@@ -298,7 +298,6 @@ button:focus:not(:focus-visible) {
 	color: inherit !important;
 	box-shadow: 0 0 0 rgba(13, 109, 253, 0);
 }
-
 .g-20{
   column-gap: 20px;
   row-gap: 20px;
@@ -316,9 +315,6 @@ button:focus:not(:focus-visible) {
 .g-15{
   column-gap:15px;
   row-gap:15px;
-}
-.google-join ul{
-  column-gap: 15px;
 }
 .btn-list ul{
   gap: 30px;
@@ -361,39 +357,6 @@ button:focus:not(:focus-visible) {
 }
 .hero-thumbnail img{
   max-width: 216px;
-}
-.hero-child-image-1 {
-	position: absolute;
-	left: -10%;
-	bottom: -12%;
-}
-.hero-child-image-2 {
-	position: absolute;
-	right: -10%;
-	top:10%;
-}
-.shape-1 {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	left: -18%;
-	bottom: -34%;
-  z-index: -2;
-  backdrop-filter: blur(150px);
-}
- 
-.shape-2 {
-	position: absolute;
-	left: -5%;
-	top:10%;
-}
-.shape-1 img{
-  width: 60%;
-  opacity: 0.5;
-  backdrop-filter: blur(150px);
-}
-.shape-2 img{
-  width: 80%;
 }
 .hero-section {
 	padding-top: 170px;
@@ -733,8 +696,6 @@ textarea{
   backdrop-filter: blur(7.165934085845947px)
 
 }
-/* tr:nth-of-type(2) td:first-child { border-left: transparent; } */
-/* tr:first-child td:last-child { border-top-right-radius: 10px; } */
 .clients-trading-table table tr:last-child td:first-child { border-bottom-left-radius: 10px; 
 	
 }
@@ -780,31 +741,8 @@ textarea{
 .clients-trading-table table tr th{
 	font-size: 18px;
 }
- .trading-live-chart img{
-  width: 102px;
- }
 .bg-2b{
   background: #2B313966;
-}
-.join-info-box-inner{
-  padding: 80px 40px;
-}
-.table-card {
-	background:#FFFFFF0D;
-	border-radius:15px;
-  padding-bottom:0px;
-  box-shadow: 0px 4.09px 10.24px 0px #FFFFFF1A inset;
-  backdrop-filter: blur(7.165934085845947px);
-  padding-top:0px;
-
-
-}
-.table-card h6{
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 22px;
-  color:#fff;
 }
 p.active{
   border-bottom: 2px solid #B7F594CC;
@@ -839,52 +777,15 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control::before, tabl
 	margin-right:5px;
 	border-left: 10px solid #B7F594CC;
 }
- .coin-info-text p{
-  color: #FFFFFFB2;
-  line-height:normal;
-  font-size: 16px;
- }
- .coin-info-text h5,.coin-rate h5{
-  font-size: 24px;
-  line-height: 26.4px;
-  color:#FFFFFF;
- }
- .coin-info-icon{
-  margin-right: 12px;
- }
- .coin-status{
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  padding: 10px 20px;
- }
- .coin-info-icon img{
-  border-radius: 50%;
-  max-width: 44px;
-  max-height: 44px;
- }
- .ellipse{
-  width: 400px;
-  height: 200px;
-  background: #B7F594CC;
-  opacity: 0.08;
-  filter: blur(150px);
-  position: absolute;
- }
- .ellipse-1{
-  left: 0;
-  top: 0;
- }
-
  .zoom-animation {
 	animation: zoomIn 2s infinite ease-in-out alternate;
 }
 @keyframes zoomIn {
   from {
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
   to {
-    transform: scale(0.9);
+    transform: scale(1);
   }
 }
 .form-control:focus{
@@ -930,17 +831,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.dtr-expanded > td.dtr-control:
   gap: 10px;
   background-color: #FFFFFF1A;
 }
-.shape-3{
-  position: absolute;
-  left:29%;
-  margin:0 auto;
-  top: 5%;
-  z-index: -2;
-}
-.shape-3 img{
-  width:80%;
-  backdrop-filter: blur(6px);
-}
+
 .accordion-button::after {
   content: '';
   display: inline-block;
@@ -999,9 +890,6 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.dtr-expanded > td.dtr-control:
 .mt-140{
   margin-top: 140px;
 }
-.step-card-left{
-  gap: 20px;
-}
 .mt-n-60{
   margin-top: -60px;
 }
@@ -1011,50 +899,6 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.dtr-expanded > td.dtr-control:
   padding: 10px 22px;
   color: #B7F594CC;
 }
- 
-.partner-icon-1{
-  left:15%;
-  top: 0;
-}
-.partner-icon-2{
-  left:8%;
-  top:50%;
-  transform: translateY(-50%);
-}
-.partner-icon-3{
-  left:15%;
-  bottom:0%;
-}
-.partner-icon-4{
-  right:15%;
-  top:0%;
-}
-.partner-icon-5{
-  right:8%;
-  top:50%;
-  transform: translateY(-50%);
-}
-.partner-icon-6{
-  right:15%;
-  bottom:0%;
-}
-.partner-icon img{
-  max-width: 100px;
-  width: 100%;
-}
-.partner-icon{
-  position: absolute;
-}
-.partner-icon {
-  position: absolute;
-  transition: all 1s cubic-bezier(0.4, 0.0, 0.2, 1); /* Smooth position transitions */
-}
-
-.partner-icon img {
-  border-radius: 50%;
-  transition: transform 0.3s ease; /* Smooth scale effect */
-}
-
 .partner-icon img:hover {
   transform: scale(1.2);
 }
@@ -1225,6 +1069,11 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.dtr-expanded > td.dtr-control:
   border-radius: 20px;
   padding: 30px;
   height: 100%;
+  cursor: pointer;
+  transition: 0.5;
+}
+.partnership-card:hover{
+  background: linear-gradient(96.98deg, #1a73e891 0%, #8236e07e 100%);
 }
 .partnership-content img{
   width: 110px;
@@ -1266,8 +1115,81 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.dtr-expanded > td.dtr-control:
   border-radius: 20px;
   height: 100%;
   background: #FFFFFF1A;
+  transition: 0.5s;
   backdrop-filter: blur(20px)
+}
+.post-card:hover{
+  box-shadow: rgba(196, 197, 199, 0.2) 0px 8px 18px;
 }
 .post-thumbnails img{
   min-width: 234px;
+}
+.ellipse{
+  width: 476px;
+  height: 476px;
+  border-radius: 50%;
+  position: absolute;
+  background: #1A73E8;
+  opacity: 0.2;
+  filter: blur(150px);
+}
+.ellipse-1{
+  right:-5%;
+  top:-5%;
+}
+.ellipse-2{
+  z-index: 2;
+  left:0%;
+  top:-42%;
+}
+.ellipse-3{
+  right:0%;
+  bottom:-40%;
+  background: #8236E0;
+}
+.ellipse-5{
+  right:0%;
+  left: 0%;
+  margin: 0 auto;
+  top: 50%;
+  opacity: 0.2;
+  transform: translateY(-50%);
+  background: #8236E0;
+}
+.ellipse-4{
+  right:-5%;
+  top:-20%;
+}
+.ellipse-6{
+  left:-5%;
+  background: #8236E0;
+  bottom:10%;
+}
+.ellipse-7{
+  left:-5%;
+  top: 50%;
+  width:320px;
+  height:320px;
+  transform: translateY(-50%);
+}
+.ellipse-8{
+  right:-5%;
+  top: 50%;
+  width:320px;
+  height:320px;
+  transform: translateY(-50%);
+}
+@keyframes rotateCard {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+.rotate-animation{
+  animation: rotateCard 5s infinite ease-in-out;
 }

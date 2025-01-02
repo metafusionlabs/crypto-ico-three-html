@@ -9,7 +9,6 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
    <link rel="icon" type="image/x-icon" href="assets/images/shortcut-icon.png">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-   <link href="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-2.1.4/r-3.0.2/datatables.min.css" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
@@ -44,7 +43,7 @@
                         <a class="nav-link" data-target="ico">ICO</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" data-target="analytics">Tokenomics</a>
+                        <a class="nav-link" data-target="tokenomics-section">Tokenomics</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" data-target="#">Roadmap</a>
@@ -53,7 +52,7 @@
                         <a class="nav-link" data-target="about-section">Coin Listings</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" data-target="about-section">Contact</a>
+                        <a class="nav-link" data-target="contact-section">Contact</a>
                      </li>
                      
                   </ul>
@@ -86,17 +85,17 @@
                   </div>
                </div>
                <div class="hero-card-image-1">
-                  <img src="assets/images/thumbnails/1.png" alt="image">
+                  <img src="assets/images/thumbnails/1.png" alt="image" class="rotate-animation">
                </div>
                <div class="hero-card-image-2">
-                  <img src="assets/images/thumbnails/2.png" alt="image">
+                  <img src="assets/images/thumbnails/2.png" alt="image" class="rotate-animation">
                </div>
             </div>
          </div>
       </section>
       <!-- Hero End -->
       <section class="info-section mt-140 position-relative" id="about-section">
-          
+         <div class="ellipse ellipse-1"></div>
          <div class="container">
             <div class="row gy-5 gx-5 align-items-center">
                 <div class="col-lg-6">
@@ -124,9 +123,7 @@
          </div>
       </section>
        <section class="ico-section mt-140 position-relative" id="ico">
-         <div class="shape-5">
-            <img src="assets/images/shape/5.png" alt="image" class="move-down">
-         </div>
+          
          <div class="container">
             <div class="row align-items-center gy-5 gx-5">
                <div class="col-lg-6">
@@ -240,7 +237,9 @@
             </div>
          </div>
       </section>
-      <section class="tokenomics-section mt-140">
+      <section class="tokenomics-section position-relative mt-140" id="tokenomics-section">
+         <div class="ellipse ellipse-2"></div>
+         <div class="ellipse ellipse-3"></div>
          <div class="container">
             <div class="row">
                <div class="offset-md-1 col-md-10">
@@ -251,7 +250,7 @@
                </div>
             </div>
             <div class="row align-items-center gx-5 gy-5 mt-4">
-               <div class="col-lg-6">
+               <div class="col-lg-6 offset-md-2 offset-lg-0 col-md-8">
                   <div class="tokenomics-progress">
                         <div class="progress-bar-item">
                            <div class="bar" style="width: 50%;">
@@ -291,9 +290,9 @@
 
                   </div>
                </div>
-               <div class="col-lg-6">
+               <div class="col-lg-6 offset-md-2 offset-lg-0 col-md-8">
                  <div class="tokenomics-thumbnails text-center">
-                   <img src="assets/images/thumbnails/4.png" alt="image" class="rounded">
+                   <img src="assets/images/thumbnails/4.png" alt="image" class="rounded zoom-animation">
                  </div>
                </div>
             </div>
@@ -312,7 +311,7 @@
             <div class="row gy-4 mt-50">
                <div class="col-lg-4 col-md-6">
                   <div class="partnership-card text-center">
-                     <img src="assets/images/partner/1.png" alt="img">
+                     <img src="assets/images/partner/1.png" alt="img" class="zoom-out">
                      <div class="partnership-content">
                         <h5>Blockchain Innovators Ltd.</h5>
                         <p>A leading blockchain technology firm offering cutting-edge solutions to enhance security, scalability, and efficiency across our platform.</p>
@@ -321,7 +320,7 @@
                </div>
                <div class="col-lg-4 col-md-6">
                   <div class="partnership-card text-center">
-                     <img src="assets/images/partner/2.png" alt="img">
+                     <img src="assets/images/partner/2.png" alt="img" class="zoom-out">
                      <div class="partnership-content">
                         <h5>Global Crypto Exchange</h5>
                         <p>A trusted cryptocurrency exchange providing seamless integration for token listings, ensuring accessibility for millions of global investors.</p>
@@ -330,7 +329,7 @@
                </div>
                <div class="col-lg-4 col-md-6">
                   <div class="partnership-card text-center">
-                     <img src="assets/images/partner/3.png" alt="img">
+                     <img src="assets/images/partner/3.png" alt="img" class="zoom-out">
                      <div class="partnership-content">
                         <h5>SecurePay Solutions</h5>
                         <p>An advanced payment gateway delivering fast, secure, and user-friendly transactions, ensuring reliability for all users worldwide.</p>
@@ -339,7 +338,7 @@
                </div>
                <div class="col-lg-4 col-md-6">
                   <div class="partnership-card text-center">
-                     <img src="assets/images/partner/4.png" alt="img">
+                     <img src="assets/images/partner/4.png" alt="img" class="zoom-out">
                      <div class="partnership-content">
                         <h5>CryptoGuard Analytics</h5>
                         <p>A top-tier analytics platform offering real-time market insights, empowering investors with data-driven decisions for maximum returns.</p>
@@ -348,7 +347,7 @@
                </div>
                <div class="col-lg-4 col-md-6">
                   <div class="partnership-card text-center">
-                     <img src="assets/images/partner/1.png" alt="img">
+                     <img src="assets/images/partner/1.png" alt="img" class="zoom-out">
                      <div class="partnership-content">
                         <h5>DeFi Connect</h5>
                         <p>An innovative decentralized finance hub providing tools for lending, borrowing, and staking, boosting the ecosystem's financial capabilities.</p>
@@ -357,7 +356,7 @@
                </div>
                <div class="col-lg-4 col-md-6">
                   <div class="partnership-card text-center">
-                     <img src="assets/images/partner/2.png" alt="img">
+                     <img src="assets/images/partner/2.png" alt="img" class="zoom-out">
                      <div class="partnership-content">
                         <h5>GreenChain Alliance</h5>
                         <p>A sustainability-focused blockchain group committed to reducing the environmental impact of cryptocurrency through energy-efficient solutions.</p>
@@ -368,6 +367,8 @@
          </div>
       </section>
       <section class="why-choose-section mt-100 position-relative" id="explore">
+      <div class="ellipse ellipse-4"></div>
+      <div class="ellipse ellipse-5"></div>
         <div class="container">
             <div class="row mt-1 gy-5 align-items-center gx-4 gx-5">
                <div class="col-lg-6 col-md-8 offset-md-2 offset-lg-0">
@@ -375,7 +376,7 @@
                         <img src="assets/images/thumbnails/5.png" alt="image" class="w-100 rounded">
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 offset-md-2 offset-lg-0 col-md-8">
                     <div class="common-heading-section text-lg-start text-center">
                         <h3>Learn and Grow with Cryptocurrency</h3>
                         <p>Discover in-depth guides, articles, and tools designed to enhance your understanding and success in the cryptocurrency world.</p>
@@ -403,7 +404,7 @@
     </section>
       
       <section class="blog-section position-relative mt-100">
-         
+         <div class="ellipse ellipse-6"></div>
          <div class="container">
             <div class="row gy-5 align-items-center">
                <div class="col-lg-8">
@@ -438,7 +439,7 @@
                </div>
                <div class="col-lg-6">
                   <div class="d-flex flex-column g-20 sm-post-card">
-                     <div class="post-card d-flex g-15 align-items-center">
+                     <div class="post-card d-md-flex g-15 align-items-center">
                         <div class="post-thumbnails">
                            <img src="assets/images/blog/2.png" alt="image" class="rounded w-100">
                         </div>
@@ -451,7 +452,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="post-card d-flex g-15 align-items-center">
+                     <div class="post-card d-md-flex g-15 align-items-center">
                         <div class="post-thumbnails">
                            <img src="assets/images/blog/3.png" alt="image" class="rounded w-100">
                         </div>
@@ -471,15 +472,17 @@
          </div>
       </section>
       <footer class="footer-section">
+         <div class="ellipse ellipse-7"></div>
+         <div class="ellipse ellipse-8"></div>
          <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-6">
-                  <div class="footer-logo">
+            <div class="row align-items-center gy-4">
+               <div class="col-sm-6">
+                  <div class="footer-logo text-center text-sm-start">
                      <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
                   </div>
                </div>
-               <div class="col-md-6">
-                  <ul class="social-menu d-flex align-items-center justify-content-end">
+               <div class="col-sm-6">
+                  <ul class="social-menu d-flex align-items-center justify-content-sm-end justify-content-center">
                      <li class="border-gradient-3"><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                      <li><a href="#"  class="border-gradient-3"><i class="fa-brands fa-twitter"></i></a></li>
                      <li><a href="#" class="border-gradient-3"><i class="fa-brands fa-instagram"></i></a></li>
@@ -492,7 +495,7 @@
                <div class="col-md-8 offset-md-2">
                  <div class="footer-bootom text-center mt-40">
                   <p>Discover our cryptocurrency platform featuring ICO opportunities, coin listings, tokenomics, roadmap, and a visionary team shaping blockchain's future.</p>
-                  <ul class="footer-pagination-list d-flex align-items-center justify-content-center mt-20">
+                  <ul class="footer-pagination-list d-flex align-items-center flex-wrap justify-content-center mt-20">
                      <li><a href="#">Home</a></li>
                      <li><a href="#">ICO</a></li>
                      <li><a href="#">Tokenomics</a></li>
@@ -500,7 +503,7 @@
                      <li><a href="#">Coin Listings</a></li>
                      <li><a href="#">Contact</a></li>
                   </ul>
-                  <ul class="footer-support-list d-flex align-items-center justify-content-center mt-20">
+                  <ul class="footer-support-list d-flex align-items-center justify-content-center flex-wrap mt-20">
                      <li><a href="mailto:info@cryptoexample.com"><i class="fa-regular fa-envelope"></i> info@cryptoexample.com</a></li>
                      <li><a href="tel:+2 54 532 245"><i class="fa-solid fa-phone-volume"></i> +2 54 532 245</a></li>
                   </ul>
@@ -520,7 +523,6 @@
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-   <script src="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-2.1.4/r-3.0.2/datatables.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
    <script src="assets/js/main.js"></script>

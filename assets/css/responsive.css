@@ -33,7 +33,7 @@
 @media screen and (max-width: 991px) {
   .hero-section {
     padding-top: 170px;
-    padding-bottom: 50px;
+    padding-bottom:120px;
   }
   .hero-card-image-1 img,.hero-card-image-2 img{
     max-width:220px;
@@ -107,6 +107,12 @@
   }
 }
 @media screen and (max-width:767px) {
+  .data-counter-card{
+    margin-top: 0;
+  }
+  .data-counter-card:first-child{
+    margin-top: -50px;
+  }
   .about-section{
     overflow-x: hidden;
   }

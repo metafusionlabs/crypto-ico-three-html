@@ -90,7 +90,6 @@ const observer = new IntersectionObserver(
     rootMargin: `-100px 0px 0px 0px` // Account for the offset
   }
 );
-// Observe all sections
 sections.forEach(section => observer.observe(section));
 // Activate "About" section on page load
 window.addEventListener('DOMContentLoaded', () => {
@@ -98,7 +97,6 @@ window.addEventListener('DOMContentLoaded', () => {
   const aboutSection = document.getElementById('about');
   if (aboutSection) {
     const targetId = aboutSection.id;
-
     navLinks.forEach(link => {
       link.classList.remove('active'); // Remove active class from all links
       if (link.getAttribute('data-target') === targetId) {
@@ -107,7 +105,6 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
-
 window.addEventListener('load', () => {
   const preloader = document.getElementById('preloader');
   preloader.classList.add('loader-hide');

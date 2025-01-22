@@ -105,6 +105,19 @@
   .ellipse{
     z-index: -2;
   }
+  .form {
+    grid-template-columns: 1fr;
+     
+  }
+  form {
+    padding:2.3rem 1rem;
+  }
+  .contact-form{
+    border-radius: 10px;
+  }
+  .ico-box {
+    padding: 30px 10px;
+  }
 }
 @media screen and (max-width:767px) {
   .data-counter-card{

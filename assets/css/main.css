@@ -1367,16 +1367,16 @@ textarea.input {
 .input-container span:before {
   left: 50%;
 }
-
 .input-container span:after {
   right: 50%;
 }
-
 .input-container.focus label {
   top: 0;
   transform: translateY(-50%);
   left: 25px;
   font-size: 0.8rem;
+  border-radius: 5px;
+  background-color:#3A60E6;
 }
 .input-container.focus span:before,
 .input-container.focus span:after {
@@ -1455,4 +1455,31 @@ textarea.input {
   left:12%;
   z-index: -9;
 }
- 
+.checker-notice input{
+  border: 1px solid red !important;
+}
+.checker-notice-text {
+	background: red;
+	display: none;
+	padding: 1px 9px;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 500;
+	position: absolute;
+	right: 0;
+  z-index: 9;
+}
+.checker-notice-text:after{
+  content: "";
+  position: absolute;
+  left: 2px;
+  top:-19px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid red;
+}
+.checker-notice .checker-notice-text{
+  display: block;
+}
